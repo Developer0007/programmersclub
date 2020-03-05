@@ -147,7 +147,7 @@ Primary use:
 
 .flip-clock-divider::after {
   font-family: Montserrat-Bold;
-  color: #fff;
+  color: #000;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -162,11 +162,11 @@ Primary use:
 }
 
 .flip-clock-divider.days::after {
-  content: "days";
+  content: "day";
 }
 
 .flip-clock-divider.hours::after {
-  content: "hrs";
+  content: "hr";
 }
 
 .flip-clock-divider.minutes::after {
